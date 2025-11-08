@@ -6,24 +6,17 @@ import {
   Typography,
   Box,
   Avatar,
-  Badge,
   useTheme,
   useMediaQuery,
-  Button,
   Menu,
   MenuItem,
-  Tooltip,
   Chip,
 } from '@mui/material';
 import {
   Menu as MenuIcon,
-  Notifications as NotificationIcon,
   ExitToApp as LogoutIcon,
-  Search as SearchIcon,
-  FilterList as FilterIcon,
   MusicNote as MusicIcon,
 } from '@mui/icons-material';
-import axios from 'axios';
 const Navbar = ({ onMenuClick, userRole, onLogout }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Box,
   Paper,
@@ -19,59 +19,8 @@ import {
 } from '@mui/icons-material';
 import { getAllUsers } from '../functions/getAllusers';
 import { getPredictionHistory } from '../functions/getPredictionHistory';
-import axios from 'axios';
 
 // Mock data - Replace with actual API data
-const mockUsers = [
-  { 
-    id: 1, 
-    username: 'john_doe', 
-    email: 'john@example.com', 
-    totalUploaded: 15,
-    recentActivity: [
-      { name: 'Song1.mp3', result: 'AI' },
-      { name: 'Song2.mp3', result: 'Human' }
-    ]
-  },
-  { 
-    id: 2, 
-    username: 'jane_smith', 
-    email: 'jane@example.com', 
-    totalUploaded: 8,
-    recentActivity: [
-      { name: 'MySong.mp3', result: 'AI' }
-    ]
-  },
-  { 
-    id: 3, 
-    username: 'mike_wilson', 
-    email: 'mike@example.com', 
-    totalUploaded: 23,
-    recentActivity: [
-      { name: 'Track1.mp3', result: 'Human' },
-      { name: 'Track2.mp3', result: 'AI' }
-    ]
-  },
-  { 
-    id: 4, 
-    username: 'sarah_jones', 
-    email: 'sarah@example.com', 
-    totalUploaded: 12,
-    recentActivity: [
-      { name: 'Audio1.mp3', result: 'AI' }
-    ]
-  },
-  { 
-    id: 5, 
-    username: 'alex_brown', 
-    email: 'alex@example.com', 
-    totalUploaded: 19,
-    recentActivity: [
-      { name: 'Music1.mp3', result: 'Human' },
-      { name: 'Music2.mp3', result: 'AI' }
-    ]
-  },
-];
 const userBasedPrediciton=new Map();
 
 const UserManagement = () => {

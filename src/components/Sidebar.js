@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Drawer,
   List,
@@ -21,18 +21,13 @@ import {
 import {
   Home as HomeIcon,
   CloudUpload as UploadIcon,
-  Analytics as PredictIcon,
   History as HistoryIcon,
-  Settings as SettingsIcon,
   Logout as LogoutIcon,
   ChevronLeft as ChevronLeftIcon,
   MusicNote as MusicNoteIcon,
   People as UsersIcon,
   AdminPanelSettings as AdminIcon,
-  Assessment as StatsIcon,
-  Delete as DeleteIcon,
 } from '@mui/icons-material';
-import axios from 'axios';
 const getMenuItems = (userRole) => {
   if (userRole === 'admin') {
     return [

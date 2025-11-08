@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Grid, Paper, Typography, Box, LinearProgress } from '@mui/material';
 import { MusicNote as MusicIcon, Autorenew as AIIcon, Person as HumanIcon } from '@mui/icons-material';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { getDashboards } from '../functions/getDashboards';
 import { extractDateParts } from '../functions/extractDateParts';
 
-import axios from 'axios';
 
 // Professional stat card component
 const StatCard = ({ icon, title, subtitle, progress, color, gradient }) => (

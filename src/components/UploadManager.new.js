@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import {
   Box,
@@ -20,8 +20,6 @@ import {
 import axios from 'axios';
 import {
   CloudUpload as UploadIcon,
-  MusicNote as MusicIcon,
-  Analytics as AnalyticsIcon,
   Audiotrack as AudioIcon,
   BarChart as ChartIcon,
   TimelineOutlined as TimelineIcon,

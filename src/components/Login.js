@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Box,
   Paper,
@@ -15,7 +15,6 @@ import {
 
 } from '@mui/material';
 import { motion } from 'framer-motion';
-import axios from 'axios';
 import { MusicNote as MusicIcon } from '@mui/icons-material';
 import { handleSignUp, handleSignIn } from '../functions/handleAuth';
 import { saveToLocal } from '../functions/localStorage';
