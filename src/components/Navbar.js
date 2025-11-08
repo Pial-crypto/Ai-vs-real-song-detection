@@ -23,7 +23,7 @@ import {
   FilterList as FilterIcon,
   MusicNote as MusicIcon,
 } from '@mui/icons-material';
-
+import axios from 'axios';
 const Navbar = ({ onMenuClick, userRole, onLogout }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));

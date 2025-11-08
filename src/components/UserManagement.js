@@ -19,6 +19,7 @@ import {
 } from '@mui/icons-material';
 import { getAllUsers } from '../functions/getAllusers';
 import { getPredictionHistory } from '../functions/getPredictionHistory';
+import axios from 'axios';
 
 // Mock data - Replace with actual API data
 const mockUsers = [

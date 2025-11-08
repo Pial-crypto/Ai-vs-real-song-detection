@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import {
   Typography,
   Box,
@@ -167,7 +168,7 @@ useState(() => {
   };
 
   const handleDelete = () => {
-    // TODO: Add actual delete API call here
+    
     setHistory(prevHistory => prevHistory.filter(item => item !== songToDelete));
     delPrediction(songToDelete.id).then(() => {
       console.log("Deletion successful");

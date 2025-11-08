@@ -5,6 +5,7 @@ import {
   Box,
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import axios from 'axios';
 import {
   AreaChart,
   Area,
@@ -64,7 +65,8 @@ useEffect(() => {
     });
 console.log("Temp Array:",tempArray);
     setPredictionHistory( tempArray);
-  } ).catch(err => {
+  } 
+).catch(err => {
     console.error("Error fetching dashboard data:", err);
 
   })

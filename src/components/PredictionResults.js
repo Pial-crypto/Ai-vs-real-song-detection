@@ -30,7 +30,7 @@ import {
   Tooltip,
   Legend,
 } from 'recharts';
-
+import axios from 'axios';
 const mockChunkData = [
   { chunk: 1, AI: 0.85, Real: 0.15 },
   { chunk: 2, AI: 0.92, Real: 0.08 },

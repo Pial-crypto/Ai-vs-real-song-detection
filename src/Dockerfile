@@ -12,16 +12,21 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 RUN apt-get update && apt-get install -y gcc libpq-dev --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
-# 5️⃣ Copy requirements & install
-COPY requirements.txt .
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+# 5️⃣ Copy only requirements file (so Docker can cache installs)
+COPY requirements.txt /app/
 
-# 6️⃣ Copy project files
-COPY . /app
+# 6️⃣ Install dependencies
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
 
-# 7️⃣ Expose port
+# ⚡ Docker will cache everything above this line
+#    So unless `requirements.txt` changes, it won’t re-download torch etc.
+
+# 7️⃣ Copy the rest of your project files
+COPY . /app/
+
+# 8️⃣ Expose the FastAPI port
 EXPOSE 8000
 
-# 8️⃣ Run FastAPI app
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+# 9️⃣ Run the FastAPI app
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
