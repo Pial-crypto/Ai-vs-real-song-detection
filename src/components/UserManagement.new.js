@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Box,
   Paper,
@@ -15,7 +15,6 @@ import {
   CardContent,
   Avatar,
 } from '@mui/material';
-import axios from 'axios';
 import {
   Search as SearchIcon,
   Group as GroupIcon,

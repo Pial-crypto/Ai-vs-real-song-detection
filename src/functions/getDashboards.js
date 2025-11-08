@@ -1,4 +1,3 @@
-import { Dashboard } from '@mui/icons-material';
 import axios from 'axios';
 
 export const getDashboards = async () => {

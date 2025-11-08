@@ -7,7 +7,7 @@ export const getAllUsers = async () => {
     const response = await axios.get(`${BASE_URL}/getAllUsers/`);
     return response.data;
   } catch (error) {
-    console.error("Get Prediction History Error:", error.response?.data || error.message);
+    console.error("Get users error:", error.response?.data || error.message);
     throw new Error(error.response?.data?.detail || error.message);
   }
 }

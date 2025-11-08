@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ThemeProvider, CssBaseline, Box, useMediaQuery, Typography, IconButton } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { createTheme } from '@mui/material/styles';
 import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
 import { default as AdminDashboard } from './components/Dashboard';
 import UserDashboard from './components/UserDashboard';
 import UploadManager from './components/UploadManager';
 import PredictionResults from './components/PredictionResults';
 import HistoryView from './components/HistoryView';
 import UserManagement from './components/UserManagement';
-import Button from '@mui/material';
 import Login from './components/Login';
 import { ToastContainer } from 'react-toastify';
 

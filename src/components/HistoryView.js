@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import { useState } from 'react';
 import {
   Typography,
   Box,
@@ -17,7 +16,6 @@ import {
   Button,
   Stack,
   Paper,
-  Divider,
   Tooltip,
   FormControl,
   InputLabel,
@@ -33,7 +31,6 @@ import {
   Visibility as VisibilityIcon,
   Delete as DeleteIcon,
   Close as CloseIcon,
-  X,
 } from '@mui/icons-material';
 import { getPredictionHistory } from '../functions/getPredictionHistory';
 import { getFromLocal } from '../functions/localStorage';
