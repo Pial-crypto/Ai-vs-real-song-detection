@@ -5,7 +5,7 @@ import {
   Box,
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import axios from 'axios';
+
 import {
   AreaChart,
   Area,
@@ -22,7 +22,6 @@ import { getFromLocal } from '../functions/localStorage';
 
 
 const UserDashboard = () => {
-  const theme = useTheme();
   const today=new Date().toISOString();
   console.log("Today:",extractDateParts(today) );
   const [predictionHistory,setPredictionHistory]=useState([]);
