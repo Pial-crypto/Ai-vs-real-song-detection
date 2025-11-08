@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { getDashboards } from '../functions/getDashboards';
 import { extractDateParts } from '../functions/extractDateParts';
 
-
+import axios from 'axios';
 
 // Professional stat card component
 const StatCard = ({ icon, title, subtitle, progress, color, gradient }) => (
