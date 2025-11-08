@@ -27,7 +27,7 @@ import {
 } from '@mui/icons-material';
 import { useDropzone } from 'react-dropzone';
 import { savePrediction } from '../functions/savePrediction';
-import axios from 'axios';
+
 const UploadManager = () => {
   const [activeStep, setActiveStep] = useState(0);
   const [uploadedFile, setUploadedFile] = useState(null);
