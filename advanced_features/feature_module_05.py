@@ -7,7 +7,7 @@ def feature_5_func_0(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block0:
@@ -29,7 +29,7 @@ def feature_5_func_1(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_2(x, y, z=1.0):
@@ -37,7 +37,7 @@ def feature_5_func_2(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_3(x, y, z=1.0):
@@ -45,7 +45,7 @@ def feature_5_func_3(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_4(x, y, z=1.0):
@@ -53,7 +53,7 @@ def feature_5_func_4(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_5(x, y, z=1.0):
@@ -61,7 +61,7 @@ def feature_5_func_5(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block5:
@@ -83,7 +83,7 @@ def feature_5_func_6(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_7(x, y, z=1.0):
@@ -91,7 +91,7 @@ def feature_5_func_7(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_8(x, y, z=1.0):
@@ -99,7 +99,7 @@ def feature_5_func_8(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_9(x, y, z=1.0):
@@ -107,7 +107,7 @@ def feature_5_func_9(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_10(x, y, z=1.0):
@@ -115,7 +115,7 @@ def feature_5_func_10(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block10:
@@ -137,7 +137,7 @@ def feature_5_func_11(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_12(x, y, z=1.0):
@@ -145,7 +145,7 @@ def feature_5_func_12(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_13(x, y, z=1.0):
@@ -153,7 +153,7 @@ def feature_5_func_13(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_14(x, y, z=1.0):
@@ -161,7 +161,7 @@ def feature_5_func_14(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_15(x, y, z=1.0):
@@ -169,7 +169,7 @@ def feature_5_func_15(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block15:
@@ -191,7 +191,7 @@ def feature_5_func_16(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_17(x, y, z=1.0):
@@ -199,7 +199,7 @@ def feature_5_func_17(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_18(x, y, z=1.0):
@@ -207,7 +207,7 @@ def feature_5_func_18(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_19(x, y, z=1.0):
@@ -215,7 +215,7 @@ def feature_5_func_19(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_20(x, y, z=1.0):
@@ -223,7 +223,7 @@ def feature_5_func_20(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block20:
@@ -245,7 +245,7 @@ def feature_5_func_21(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_22(x, y, z=1.0):
@@ -253,7 +253,7 @@ def feature_5_func_22(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_23(x, y, z=1.0):
@@ -261,7 +261,7 @@ def feature_5_func_23(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_24(x, y, z=1.0):
@@ -269,7 +269,7 @@ def feature_5_func_24(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_25(x, y, z=1.0):
@@ -277,7 +277,7 @@ def feature_5_func_25(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block25:
@@ -299,7 +299,7 @@ def feature_5_func_26(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_27(x, y, z=1.0):
@@ -307,7 +307,7 @@ def feature_5_func_27(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_28(x, y, z=1.0):
@@ -315,7 +315,7 @@ def feature_5_func_28(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_29(x, y, z=1.0):
@@ -323,7 +323,7 @@ def feature_5_func_29(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_30(x, y, z=1.0):
@@ -331,7 +331,7 @@ def feature_5_func_30(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block30:
@@ -353,7 +353,7 @@ def feature_5_func_31(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_32(x, y, z=1.0):
@@ -361,7 +361,7 @@ def feature_5_func_32(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_33(x, y, z=1.0):
@@ -369,7 +369,7 @@ def feature_5_func_33(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_34(x, y, z=1.0):
@@ -377,7 +377,7 @@ def feature_5_func_34(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_35(x, y, z=1.0):
@@ -385,7 +385,7 @@ def feature_5_func_35(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block35:
@@ -407,7 +407,7 @@ def feature_5_func_36(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_37(x, y, z=1.0):
@@ -415,7 +415,7 @@ def feature_5_func_37(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_38(x, y, z=1.0):
@@ -423,7 +423,7 @@ def feature_5_func_38(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_39(x, y, z=1.0):
@@ -431,7 +431,7 @@ def feature_5_func_39(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_40(x, y, z=1.0):
@@ -439,7 +439,7 @@ def feature_5_func_40(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block40:
@@ -461,7 +461,7 @@ def feature_5_func_41(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_42(x, y, z=1.0):
@@ -469,7 +469,7 @@ def feature_5_func_42(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_43(x, y, z=1.0):
@@ -477,7 +477,7 @@ def feature_5_func_43(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_44(x, y, z=1.0):
@@ -485,7 +485,7 @@ def feature_5_func_44(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_45(x, y, z=1.0):
@@ -493,7 +493,7 @@ def feature_5_func_45(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block45:
@@ -515,7 +515,7 @@ def feature_5_func_46(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_47(x, y, z=1.0):
@@ -523,7 +523,7 @@ def feature_5_func_47(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_48(x, y, z=1.0):
@@ -531,7 +531,7 @@ def feature_5_func_48(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_49(x, y, z=1.0):
@@ -539,7 +539,7 @@ def feature_5_func_49(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_50(x, y, z=1.0):
@@ -547,7 +547,7 @@ def feature_5_func_50(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block50:
@@ -569,7 +569,7 @@ def feature_5_func_51(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_52(x, y, z=1.0):
@@ -577,7 +577,7 @@ def feature_5_func_52(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_53(x, y, z=1.0):
@@ -585,7 +585,7 @@ def feature_5_func_53(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_54(x, y, z=1.0):
@@ -593,7 +593,7 @@ def feature_5_func_54(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_55(x, y, z=1.0):
@@ -601,7 +601,7 @@ def feature_5_func_55(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block55:
@@ -623,7 +623,7 @@ def feature_5_func_56(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_57(x, y, z=1.0):
@@ -631,7 +631,7 @@ def feature_5_func_57(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_58(x, y, z=1.0):
@@ -639,7 +639,7 @@ def feature_5_func_58(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_59(x, y, z=1.0):
@@ -647,7 +647,7 @@ def feature_5_func_59(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_60(x, y, z=1.0):
@@ -655,7 +655,7 @@ def feature_5_func_60(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block60:
@@ -677,7 +677,7 @@ def feature_5_func_61(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_62(x, y, z=1.0):
@@ -685,7 +685,7 @@ def feature_5_func_62(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_63(x, y, z=1.0):
@@ -693,7 +693,7 @@ def feature_5_func_63(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_64(x, y, z=1.0):
@@ -701,7 +701,7 @@ def feature_5_func_64(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_65(x, y, z=1.0):
@@ -709,7 +709,7 @@ def feature_5_func_65(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block65:
@@ -731,7 +731,7 @@ def feature_5_func_66(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_67(x, y, z=1.0):
@@ -739,7 +739,7 @@ def feature_5_func_67(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_68(x, y, z=1.0):
@@ -747,7 +747,7 @@ def feature_5_func_68(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_69(x, y, z=1.0):
@@ -755,7 +755,7 @@ def feature_5_func_69(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_70(x, y, z=1.0):
@@ -763,7 +763,7 @@ def feature_5_func_70(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block70:
@@ -785,7 +785,7 @@ def feature_5_func_71(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_72(x, y, z=1.0):
@@ -793,7 +793,7 @@ def feature_5_func_72(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_73(x, y, z=1.0):
@@ -801,7 +801,7 @@ def feature_5_func_73(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_74(x, y, z=1.0):
@@ -809,7 +809,7 @@ def feature_5_func_74(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_75(x, y, z=1.0):
@@ -817,7 +817,7 @@ def feature_5_func_75(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block75:
@@ -839,7 +839,7 @@ def feature_5_func_76(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_77(x, y, z=1.0):
@@ -847,7 +847,7 @@ def feature_5_func_77(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_78(x, y, z=1.0):
@@ -855,7 +855,7 @@ def feature_5_func_78(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_79(x, y, z=1.0):
@@ -863,7 +863,7 @@ def feature_5_func_79(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_80(x, y, z=1.0):
@@ -871,7 +871,7 @@ def feature_5_func_80(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block80:
@@ -893,7 +893,7 @@ def feature_5_func_81(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_82(x, y, z=1.0):
@@ -901,7 +901,7 @@ def feature_5_func_82(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_83(x, y, z=1.0):
@@ -909,7 +909,7 @@ def feature_5_func_83(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_84(x, y, z=1.0):
@@ -917,7 +917,7 @@ def feature_5_func_84(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_85(x, y, z=1.0):
@@ -925,7 +925,7 @@ def feature_5_func_85(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block85:
@@ -947,7 +947,7 @@ def feature_5_func_86(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_87(x, y, z=1.0):
@@ -955,7 +955,7 @@ def feature_5_func_87(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_88(x, y, z=1.0):
@@ -963,7 +963,7 @@ def feature_5_func_88(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_89(x, y, z=1.0):
@@ -971,7 +971,7 @@ def feature_5_func_89(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_90(x, y, z=1.0):
@@ -979,7 +979,7 @@ def feature_5_func_90(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block90:
@@ -1001,7 +1001,7 @@ def feature_5_func_91(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_92(x, y, z=1.0):
@@ -1009,7 +1009,7 @@ def feature_5_func_92(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_93(x, y, z=1.0):
@@ -1017,7 +1017,7 @@ def feature_5_func_93(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_94(x, y, z=1.0):
@@ -1025,7 +1025,7 @@ def feature_5_func_94(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 def feature_5_func_95(x, y, z=1.0):
@@ -1033,7 +1033,7 @@ def feature_5_func_95(x, y, z=1.0):
     a = (x + y) * z
     b = math.sqrt(abs(a) + 1.0)
     c = statistics.mean([a, b, z, x, y]) if (x+y+z) else 0.0
-    d = random.Random(i+5).random() * c
+    d = random.Random(1).random() * c
     return a + b + c + d
 
 class Feature5Block95:

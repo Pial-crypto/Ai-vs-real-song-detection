@@ -1,0 +1,6 @@
+[lint]
+select = ["E", "F", "W", "I", "G"]
+ignore = ["B008", "E501"]
+
+[lint.per-file-ignores]
+"backend/tests/*" = ["F841"]
