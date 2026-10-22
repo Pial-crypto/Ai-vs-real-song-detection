@@ -16,12 +16,19 @@ from backend.app.middleware.correlation import CorrelationIdMiddleware
 from backend.app.middleware.rate_limit import RateLimitMiddleware
 from backend.app.routers import (
     analytics,
+    audit,
     auth,
     backups,
+    batch,
     dashboards,
+    export,
+    feature_flags,
     health,
+    models,
+    notifications,
     prediction,
     predictions,
+    profiles,
     users,
 )
 
@@ -72,6 +79,13 @@ def create_app() -> FastAPI:
     app.include_router(dashboards.router, prefix=api_prefix)
     app.include_router(backups.router, prefix=api_prefix)
     app.include_router(analytics.router, prefix=api_prefix)
+    app.include_router(audit.router, prefix=api_prefix)
+    app.include_router(batch.router, prefix=api_prefix)
+    app.include_router(export.router, prefix=api_prefix)
+    app.include_router(feature_flags.router, prefix=api_prefix)
+    app.include_router(notifications.router, prefix=api_prefix)
+    app.include_router(profiles.router, prefix=api_prefix)
+    app.include_router(models.router, prefix=api_prefix)
     app.include_router(prediction.router)
 
     return app

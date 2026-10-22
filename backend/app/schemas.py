@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Any
+from typing import Any, Dict, Optional
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
 
@@ -94,3 +94,107 @@ class HealthResponse(BaseModel):
 
 class ErrorResponse(BaseModel):
     error: dict[str, Any]
+
+
+class AuditLogOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    user_id: Optional[int] = None
+    action: str
+    resource: Optional[str] = None
+    resource_id: Optional[str] = None
+    details: Optional[Dict[str, Any]] = None
+    ip_address: Optional[str] = None
+    created_at: Optional[datetime] = None
+
+
+class NotificationCreate(BaseModel):
+    title: str = Field(min_length=1, max_length=128)
+    message: str = Field(min_length=1, max_length=1024)
+    level: str = "info"
+
+
+class NotificationOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    user_id: int
+    title: str
+    message: str
+    level: str
+    read: bool
+    created_at: Optional[datetime] = None
+
+
+class FeatureFlagOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    key: str
+    enabled: bool
+    description: Optional[str] = None
+    rollout_percent: int
+
+
+class FeatureFlagUpdate(BaseModel):
+    enabled: Optional[bool] = None
+    description: Optional[str] = None
+    rollout_percent: Optional[int] = Field(default=None, ge=0, le=100)
+
+
+class ModelMetadataOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    name: str
+    version: str
+    accuracy: Optional[str] = None
+    path: Optional[str] = None
+    is_active: bool
+    created_at: Optional[datetime] = None
+
+
+class BatchJobOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    user_id: int
+    status: str
+    total_files: int
+    processed_files: int
+    results: Optional[Any] = None
+    error: Optional[str] = None
+    created_at: Optional[datetime] = None
+    completed_at: Optional[datetime] = None
+
+
+class UserProfileOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    user_id: int
+    display_name: Optional[str] = None
+    avatar_url: Optional[str] = None
+    preferences: Optional[Dict[str, Any]] = None
+    bio: Optional[str] = None
+    updated_at: Optional[datetime] = None
+
+
+class UserProfileUpdate(BaseModel):
+    display_name: Optional[str] = None
+    avatar_url: Optional[str] = None
+    preferences: Optional[Dict[str, Any]] = None
+    bio: Optional[str] = None
+
+
+class ExportJobOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    user_id: int
+    format: str
+    status: str
+    file_path: Optional[str] = None
+    created_at: Optional[datetime] = None
+    completed_at: Optional[datetime] = None
