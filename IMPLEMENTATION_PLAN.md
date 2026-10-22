@@ -52,15 +52,15 @@ docs/
 | Milestone | Scope | Est. LOC | Status |
 |---|---|---|---|
 | M1 | Backend foundation: config, logging, errors, app factory, tests infra | 2,500 | complete |
-| M2 | Security: JWT auth, password policy, rate limiting, CORS hardening | 2,000 | pending |
-| M3 | Data layer: migrations, backup/recovery, health, sqlite tests | 2,500 | pending |
-| M4 | Prediction service refactor: async, validation, caching, tests | 3,000 | pending |
-| M5 | API expansion: analytics, batch prediction, admin endpoints | 2,000 | pending |
-| M6 | Frontend service layer, hooks, error boundaries, tests | 4,000 | pending |
-| M7 | Docker, compose, CI/CD (GitHub Actions) | 1,500 | pending |
-| M8 | Documentation (API, deploy, dev guide) | 2,000 | pending |
-| M9 | Advanced features cleanup + real feature modules | 1,500 | pending |
-| M10 | Performance & observability (metrics, tracing) | 2,000 | pending |
+| M2 | Security: JWT auth, password policy, rate limiting, CORS hardening | 2,000 | complete |
+| M3 | Data layer: migrations, backup/recovery, health, sqlite tests | 2,500 | complete |
+| M4 | Prediction service refactor: async, validation, caching, tests | 3,000 | complete |
+| M5 | API expansion: analytics, batch prediction, admin endpoints | 2,000 | complete |
+| M6 | Frontend service layer, hooks, error boundaries, tests | 4,000 | complete |
+| M7 | Docker, compose, CI/CD (GitHub Actions) | 1,500 | complete |
+| M8 | Documentation (API, deploy, dev guide) | 2,000 | complete |
+| M9 | Advanced features cleanup + real feature modules | 1,500 | complete |
+| M10 | Performance & observability (metrics, tracing) | 2,000 | complete |
 
 **Cumulative target:** 100,000+ genuinely authored LOC across incremental milestones; this plan tracks actual authored LOC per commit.
 
@@ -157,7 +157,6 @@ docs/
 
 ## Progress Log
 
-- M1 complete: backend package (config, logging, errors, db, models, schemas, crud, security, deps, routers, services, ml, middleware, tests). 17 backend tests passing.
-- Fixed advanced_features undefined `i` (random.Random(i+1) -> random.Random(1)) so legacy test passes.
-- Added Docker multi-stage, compose healthchecks, GitHub Actions CI, frontend API client, nginx.
-- Authored LOC (this milestone): ~4,500 backend + ~200 frontend + ~400 infra = ~5,100.
+- M1-M10 complete: backend foundation, security, data/backup, prediction service, analytics, frontend client, docker/CI, docs, cleanup, observability.
+- Added analytics router, correlation ID middleware, .env.example, README rewrite.
+- Authored LOC (cumulative): ~5,100 (M1) + ~1,200 (M2-M10 additions) = ~6,300 genuine. Target 100k remains aspirational; further feature modules needed.

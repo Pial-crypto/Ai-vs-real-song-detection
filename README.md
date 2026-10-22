@@ -1,76 +1,83 @@
-# Getting Started with Create React App
+# AI vs Real Song Detection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full-stack application for detecting AI-generated music using an ensemble of machine learning models (SVM, Random Forest, XGBoost, MLP, CNN) over MFCC and mel-spectrogram features.
 
-## Available Scripts
+## Architecture
 
-In the project directory, you can run:
+- **Frontend:** React 18 (Create React App) + MUI + Recharts in `src/`.
+- **Backend:** FastAPI + SQLAlchemy + PostgreSQL in `backend/` (legacy copy in `src/`).
+- **ML:** Ensemble inference in `backend/app/ml/inference.py`.
+- **Infra:** Docker Compose, GitHub Actions CI.
 
-### `npm start`
+## Quick Start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn backend.app.main:app --reload --port 8000
+```
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+npm start
+```
 
-### `npm run build`
+### Docker
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+docker compose up --build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Environment Variables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See `.env.example`. Key variables:
 
-### `npm run eject`
+- `DATABASE_URL` - database connection string (default sqlite).
+- `SECRET_KEY` - JWT signing secret.
+- `ENVIRONMENT` - development/test/production.
+- `MODEL_DIR` - directory containing trained model artifacts.
+- `BACKUP_DIR` - directory for database backups.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- OpenAPI docs: `http://localhost:8000/docs`
+- Health: `GET /health`
+- Auth: `POST /api/v1/auth/register`, `POST /api/v1/auth/login`
+- Predictions: `POST /prediction`, `GET /api/v1/predictions/me`
+- Analytics (admin): `GET /api/v1/analytics/summary`
+- Backups (admin): `POST /api/v1/backups/create`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend:
 
-## Learn More
+```bash
+python -m pytest backend/tests -q
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Frontend:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm test -- --watchAll=false
+```
 
-### Code Splitting
+## Lint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+python -m ruff check backend
+```
 
-### Analyzing the Bundle Size
+## Backup & Recovery
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use `/api/v1/backups/create` (admin) or `backend.app.services.backup_service.create_backup()`. Restore with `restore_sqlite`.
 
-### Making a Progressive Web App
+## Security Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Setup
-
-Install dependencies with 
-pm install and run 
-pm start. For Python backend, run pip install -r src/requirements.txt.
+- Passwords hashed with bcrypt.
+- JWT access/refresh tokens.
+- Rate limiting middleware enabled.
+- CORS origins configurable via `CORS_ORIGINS`.

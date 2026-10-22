@@ -12,8 +12,10 @@ from backend.app.config import get_settings
 from backend.app.database import init_db
 from backend.app.errors import register_exception_handlers
 from backend.app.logging_config import configure_logging, get_logger
+from backend.app.middleware.correlation import CorrelationIdMiddleware
 from backend.app.middleware.rate_limit import RateLimitMiddleware
 from backend.app.routers import (
+    analytics,
     auth,
     backups,
     dashboards,
@@ -58,6 +60,7 @@ def create_app() -> FastAPI:
     )
 
     app.add_middleware(RateLimitMiddleware)
+    app.add_middleware(CorrelationIdMiddleware)
 
     register_exception_handlers(app)
 
@@ -68,6 +71,7 @@ def create_app() -> FastAPI:
     app.include_router(predictions.router, prefix=api_prefix)
     app.include_router(dashboards.router, prefix=api_prefix)
     app.include_router(backups.router, prefix=api_prefix)
+    app.include_router(analytics.router, prefix=api_prefix)
     app.include_router(prediction.router)
 
     return app
