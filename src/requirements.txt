@@ -30,3 +30,4 @@ python-dotenv==1.0.1
 # --- Optional (for debugging, development) ---
 matplotlib==3.9.0
 requests==2.32.3
+passlib[bcrypt]

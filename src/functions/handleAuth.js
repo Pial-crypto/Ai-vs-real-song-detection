@@ -6,6 +6,7 @@ const BASE_URL = "http://127.0.0.1:8000";  // FastAPI server URL
 
   // ---------------- Sign Up ----------------
   export const handleSignUp = async ({username, email, password}) => {
+    console.log(`Attempting sign up with URL: ${BASE_URL}/users/`);
     try {
       const response = await axios.post(`${BASE_URL}/users/`, {
         username,
