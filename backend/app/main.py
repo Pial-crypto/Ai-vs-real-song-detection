@@ -29,6 +29,7 @@ from backend.app.routers import (
     prediction,
     predictions,
     profiles,
+    search,
     users,
 )
 
@@ -86,6 +87,7 @@ def create_app() -> FastAPI:
     app.include_router(notifications.router, prefix=api_prefix)
     app.include_router(profiles.router, prefix=api_prefix)
     app.include_router(models.router, prefix=api_prefix)
+    app.include_router(search.router, prefix=api_prefix)
     app.include_router(prediction.router)
 
     return app
