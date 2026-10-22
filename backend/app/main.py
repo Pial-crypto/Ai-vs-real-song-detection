@@ -20,17 +20,21 @@ from backend.app.routers import (
     auth,
     backups,
     batch,
+    cache,
     dashboards,
     export,
     feature_flags,
     health,
+    metrics,
     models,
     notifications,
     prediction,
     predictions,
     profiles,
     search,
+    tasks,
     users,
+    webhooks,
 )
 
 logger = get_logger("app.main")
@@ -88,6 +92,10 @@ def create_app() -> FastAPI:
     app.include_router(profiles.router, prefix=api_prefix)
     app.include_router(models.router, prefix=api_prefix)
     app.include_router(search.router, prefix=api_prefix)
+    app.include_router(webhooks.router, prefix=api_prefix)
+    app.include_router(metrics.router)
+    app.include_router(tasks.router, prefix=api_prefix)
+    app.include_router(cache.router, prefix=api_prefix)
     app.include_router(prediction.router)
 
     return app
